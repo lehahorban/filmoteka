@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../src/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../src/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../src/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../src/images/site.webmanifest" />
+    <title>Filmoteka</title>
+  </head>
+  <body>
+
+    <include src="./partials/header-index.html"></include>
+    <main>
+     
+      <include src="./partials/movie-list.html"></include>
+      <include src="./partials/pagination.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modal.html"></include>
+    <include src="./partials/footer-modal.html"></include>
+
+
+    <script src="./js/movie-list.js" type="module"></script>
+    <script src="./js/modal.js" type="module"></script>
+    <script src="./js/movie-list-by-keyword.js" type="module"></script>
+    <script src="./js/footer-modal.js" type="module"></script>
+    <script src="./js/addtowatched.js" type="module"></script>
+    <script src="./js/addtoqueue.js" type="module"></script>
+
+
+  </body>
+ 
+  <script type="module" src="./index.js"></script>
+</html>
+
