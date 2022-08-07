@@ -140,4 +140,3 @@ function checkGenreList(genres) {
 //   btnAddToWatch.textContent = 'add to Watched';
 // }
 
-console.log(first)
