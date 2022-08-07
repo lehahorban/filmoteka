@@ -139,3 +139,5 @@ function checkGenreList(genres) {
 //   btnAddToQueue.textContent = 'add to queue';
 //   btnAddToWatch.textContent = 'add to Watched';
 // }
+
+console.log(first)
